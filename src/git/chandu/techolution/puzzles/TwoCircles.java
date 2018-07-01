@@ -1,4 +1,4 @@
-package puzzles;
+package git.chandu.techolution.puzzles;
 
 import java.util.Scanner;
 
