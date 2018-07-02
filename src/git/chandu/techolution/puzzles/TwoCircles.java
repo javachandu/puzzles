@@ -28,11 +28,11 @@ public class TwoCircles {
 			
 			int t = circle(cx1, cy1, cx2, cy2, r1, r2);
 			if (t == 1)
-				System.out.println("Circle touch to" + " each other.");
+				System.out.println("Touching");
 			else if (t < 0)
-				System.out.println("Circle not touch" + " to each other.");
+				System.out.println("Disjoint-outside");
 			else
-				System.out.println("Circle intersect" + " to each other.");
+				System.out.println("Intersecting");
 		}
 
 	}
